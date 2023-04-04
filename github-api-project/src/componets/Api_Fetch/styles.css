@@ -1,61 +1,62 @@
-.contianer{
-    display: flex;
-    flex-direction: row;
-    padding: 1.5rem;
-    gap: 1.5rem;
-    background-color:rgb(0, 0, 0) ;
-    align-items: center;  
-    margin: 1rem;
-    border-radius: 1rem;
-    width: 500px;
+.contianer {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  margin: 1rem;
+  border-radius: 1rem;
+  width: 500px;
+  color: white;
 }
-.profileImg{
+.profileImg {
   width: 75px;
   height: 75px;
   border-radius: 50%;
 }
-.leftContainer{
+.leftContainer {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-.top{
+.top {
   display: flex;
   flex-direction: column;
 }
-.name{
-font-size: 19px;
+.name {
+  font-size: 19px;
 }
-.username{
+.username {
   text-decoration: none;
   color: rgb(179, 179, 179);
   font-weight: 300;
   font-size: 16px;
   padding: 6px 0;
 }
-.location{
+.location {
   color: rgb(179, 179, 179);
   font-size: 16px;
   font-weight: 300;
 }
-.bottom{
+.bottom {
   display: flex;
   gap: 10px;
 }
-.follower,.following{
+.follower,
+.following {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 6px;
-  font-weight:300 ;
+  font-weight: 300;
 }
-.public_repo{
+.public_repo {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 6px;
-  gap: 6px;
-  font-weight:300 ;
+  font-weight: 300;
 }
 
 /* <div className="contianer">
@@ -78,3 +79,31 @@ font-size: 19px;
           </div>
       </div>
     </div> */
+.tooltip {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  border-bottom: 1px dotted black;
+  align-items: center;
+  cursor: pointer;
+}
+.tooltip .tooltiptext {
+  cursor: pointer;
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(87, 87, 87);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 15px;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 125%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

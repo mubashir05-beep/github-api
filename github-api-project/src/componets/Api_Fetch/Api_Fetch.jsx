@@ -18,7 +18,7 @@ const Api_Fetch = ({ username }) => {
 
   return (
     <div className="contianer">
-      <img className="profileImg" src={data.avatar_url} alt="" srcset="" />
+      <img className="profileImg" src={data.avatar_url} alt=""/>
       <div>
         <div className="leftContainer">
           <div className="top">
@@ -32,7 +32,13 @@ const Api_Fetch = ({ username }) => {
             </a>
             <div className="location">{data.location}</div>
           </div>
-          <div className="public_repo"><RiGitRepositoryLine/> {data.public_repos}</div>
+          <div className="public_repo">
+            <div className="tooltip">
+              {" "}
+              <RiGitRepositoryLine /> {data.public_repos}
+              <span className="tooltiptext">Public Repos</span>
+            </div>
+          </div>
           <div className="bottom">
             <div className="follower">
               <BsPeople />

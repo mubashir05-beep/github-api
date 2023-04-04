@@ -11,14 +11,13 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
       <Header/>
       {/* <Header/> Will return username entered from user */}
       {/* context will then forward the user name to api forward and thenm will make container there */}
-      <MainContext.Provider>
+      {/* <MainContext.Provider>
       <Api_Fetch username="mubashir05-beep" />
       </MainContext.Provider>
-      
+       */}
     </div>
   );
 }
