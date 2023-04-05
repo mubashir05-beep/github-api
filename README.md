@@ -14,11 +14,13 @@ Technologies & Techniques Used :
     1)React-JS.
     2)React Hooks(useState,useEffect,useRef,useContext/createContext).
     3)Modern ES6+ JavaScript.
-    4)CSS3/HTML/JSX.
-    5)React Functional components and their reusability.
-    6)React file and folder structure.
-    7)Used Flex-Box.
-    8)Responsive and clean layout.
+    4)Axios/Fetch.
+    5)React-Icons
+    6)CSS3/HTML/JSX.
+    7)React Functional components and their reusability.
+    8)React file and folder structure.
+    9)Used Flex-Box.
+    10)Responsive and clean layout.
 
 Live : https://githubname-api.netlify.app/
 
