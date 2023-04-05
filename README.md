@@ -1,4 +1,4 @@
-# Github-Api
+# GitHub User Details App
 (NODE should be installed on the system)
 To Run Locally :
 
