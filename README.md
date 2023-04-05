@@ -1,13 +1,14 @@
 # Github-Api
 (NODE should be installed on the system)
 To Run Locally :
+
+
     1)Clone the repo.
     2)cd into the 'github-api-project'.
     3)Then type 'npm install'.
-    3)Now type 'npm run dev'.
-    4)Then open your browser and type "http://localhost:5173/".
-    and your good to go!
-
+    4)Now type 'npm run dev'.
+    5)Then open your browser and type "http://localhost:5173/".
+   and your good to go!
 Technologies & Techniques Used :
 
     1)React-JS.
