@@ -44,7 +44,7 @@ const Api_Fetch = ({ username }) => {
               <BsPeople />
               {data.followers} followers
             </div>
-            <span>.</span>
+            <span className="span_1">.</span>
             <div className="following">{data.following} following</div>
           </div>
         </div>

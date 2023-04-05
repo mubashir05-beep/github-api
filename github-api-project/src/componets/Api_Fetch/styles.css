@@ -11,6 +11,24 @@
   height: 200px;
   color: white;
 }
+@media screen and (max-width:500px) {
+  .contianer{
+    width: 250px;
+    flex-direction: column;
+    height: 350px;
+  }
+  .bottom {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;  
+}
+.span_1{
+  display: none ;
+}
+.following{
+  padding-left: 22px;
+}
+}
 .profileImg {
   width: 75px;
   height: 75px;

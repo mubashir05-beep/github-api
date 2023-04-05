@@ -27,6 +27,14 @@ input{
     font-size: 16px;
     font-weight: 300;
 }
+@media screen and (max-width:500px) {
+    input{
+        width: 200px;
+    }
+    .input_field{
+        width: 250px;
+    }
+}
 input:focus,
 select:focus,
 textarea:focus,
@@ -51,4 +59,3 @@ button:focus {
     border-bottom-width: 1px;
     cursor: pointer;
 }
-
