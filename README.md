@@ -1,8 +1,9 @@
 # Github-Api
 To Run Locally :
-
+(NODE should be installed on the system)
     1)Clone the repo.
     2)cd into the 'github-api-project'.
+    3)Then type 'npm install'.
     3)Now type 'npm run dev'.
     4)Then open your browser and type "http://localhost:5173/".
     and your good to go!
