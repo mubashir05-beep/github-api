@@ -9,6 +9,7 @@ To Run Locally :
     4)Now type 'npm run dev'.
     5)Then open your browser and type "http://localhost:5173/".
    and your good to go!
+   
 Technologies & Techniques Used :
 
     1)React-JS.
